@@ -289,8 +289,20 @@ ul li{
 
 .pages{
     padding-top: 25px;
+    display: flex;
+    color: #ddd;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 .copyright{
     padding-top: 25px;
+}
+
+.pages a{
+    padding: 0.6rem;
+    color:#ddd;
+    font-weight: 500;
+    font-size:larger;
+    text-decoration: none;
 }
